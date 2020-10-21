@@ -1,98 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luke's Web App Project</title>
+    <meta name="author" content="Luke Irvine">
+    <meta name="keywords" content="Worship, Music, Musicians, Songs, Jesus">
+    <meta name="description" content="Worship set building tutorials">
+    <title>Worship Warehouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <header>
-        <h1>Worship Planning One-Stop-Shop</h1>
-    </header>
-    <section class="overview">
-        <h2>Project Overview</h2>
-        <p>
-            Leading a worship band has many more moving pieces and components than
-            people may realize. The leader has to match a myriad of musicians together
-            into one band, taking into account their preferences, musical talent and
-            abilities, schedules, how frequently they’ve played, etc. Then the leader
-            has to pick songs that flow nicely together both in the way they sound and
-            in the message their lyrics convey. Plus, it is best to pick songs that the
-            band enjoys to play. Once the songs and people are chosen, the leader has
-            to find rehearsal times that match everyone’s
-            schedules, reserve a venue to practice in, and find chord charts for the songs.
-            This of course can only be done once the leader knows what keys the singers want
-            the songs in. Then the leader has to arrange each song and decide in what order
-            they want to do the different pieces of the song, taking in to account the way other
-            people usually do the song. Then there comes the matter of managing a rehearsal.
-            The leader has to easily convey to his or her band what they want the songs to
-            sound like.
-            <a
-                href="https://en.wikipedia.org/wiki/Click_track#:~:text=A%20click%20track%20is%20a,precise%20timings%20for%20musical%20accompaniment.">
-                Click tracks
-            </a>
-            are a great tool for this, but these take a long time to
-            make, and a great deal of expertise. Click tracks are audio tracks that have both
-            a metronome and verbal cues that tell the band which piece of the song comes next.
-            Finally, the leader needs to think about communicating their audio needs to a tech
-            team and the lyrics of their songs to the projectionist, and make sure the lyrics
-            are in the perfect order. <br>
-            <br>
-            There are a myriad of steps that worship leaders have to think about when
-            designing a worship set, and for many the sheer number of steps is daunting.
-            I think it would be great to have a webpage that walks people step-by-step through
-            the process of designing a worship set and has all the necessary tools in one place.
-            Worship leaders typically use countless online tools to accomplish their needs.
-            There are resources for chord charts, song lists, beats per minute for each song,
-            click track creation tutorials, etc. It would be great to have all these tools in
-            one place that are presented at the appropriate steps in the whole process. A worship
-            leader could come to this website and simply walk through every step in the process
-            and have a complete, well polished worship set by the end of it.
-        </p>
-    </section>
-    <section class="Apps">
-        <h2>Possible App Integrations</h2>
+    <!-- Obtained from problem set 2d of the homework -->
+    <nav>
         <ul>
-            <li>
-                Song bpm lookup
-                <ul>
-                    <li>
-                        In this app the user could enter the name of literally any song and
-                        the bpm for popular recordings of it would be returned.
-                        See <a href="https://songbpm.com/">songbpm.com</a> for an idea of what
-                        this would look like. This is great for creating click tracks for songs.
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Youtube Integration
-                <ul>
-                    <li>
-                        There could be direct youtube playlists embedded in the webpage
-                        that would show the user how to do various technical tasks in creating
-                        a worship set, like how to create click tracks, how to use
-                        <a href="https://www.planningcenter.com/">planning center</a>,
-                        how to see everyone’s schedules in Outlook calendar, etc.
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Song Key lookup
-                <ul>
-                    <li>
-                        This would be a database of worship songs with suggested keys.
-                        The user could enter a song title and possible keys would be returned,
-                        like the best key for a guy to sing the song in and the best key for a
-                        girl to sing the song in, etc. This is super helpful because then the
-                        worship leader can get a jump on song planning without having to wait
-                        around for the singers to get back to them.
-                    </li>
-                </ul>
-            </li>
+            <li><a href="#section2">Step 1</a></li>
+            <li><a href="#section3">Step 2</a></li>
+            <li><a href="#section4">Step 3</a></li>
         </ul>
-    </section>
+        <!-- <div class="searchBox" role="search">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search fa-flip-horizontal" aria-label="Search"></i></button>
+        </div> -->
+    </nav>
+    <header>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Worship Warehouse</h1>
+                <p>For All Your Worship Planning Needs</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section" id="section1">
+            <div class="button-box">
+            	<button onclick="window.location.href='index.html#section2';"><p>Get Started</p></button>
+            </div>
+            <div id="message">
+                <p>Scroll to see the steps</p>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="step-number">
+                <div class="step"><p>Step</p></div>
+                <div class="number"><p>1</p></div>
+            </div>
+            <div class="step-description">
+                <div class="title"><h1>Choose Your Musicians</h1></div>
+                <div class="content">
+                    <p>
+                        When choosing band members, there are a myriad of considerations
+                        to take into account. You have to think about their abilities, musical
+                        talent, schedules, how frequently they play, and their general
+                        preferences. Thinking about how all these pieces fit together can be
+                        quite daunting, so a good planning tool is a necessity for this process.
+                        One great tool is <a href="https://www.planningcenter.com/services">Planning Center Online Services</a>, which 
+                        has extensive functionality for keeping track of musicians and all their
+                        attributes and has helpful tools to visualize what musicians are available.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="step-number">
+                <div class="step"><p>Step</p></div>
+                <div class="number"><p>2</p></div>
+            </div>
+            <div class="step-description">
+                <div class="title"><h1>Choose Songs</h1></div>
+                <div class="content">
+                    <p>
+                        Choosing the setlist for a worship set is an artform. The songs should be new
+                        but familiar, interesting but easy, and contain lyrics that are simple and easy to
+                        sing, but still carry a meaninful message. A set should have a common thread
+                        or theme in its lyrics and also flow musically - either low, dynamically, to high,
+                        or high to low, or some combination of the two. Point being, it should have an
+                        intentional dynamic flow and feel natural. A final consideration is whether or
+                        not the musicians you picked in step 1 are competent enough to play the songs and 
+                        will enjoy playing them. Perhaps you'll need to revisit step 1 if there is a 
+                        particular song you'd like to do but your musicians can't handle it. To this end, 
+                        it is important not to contact musicians until the songs have been chosen. <br><br>
+                        <a href="more_pages/index.html">Learn more about choosing songs >></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="step-number">
+                <div class="step"><p>Step</p></div>
+                <div class="number"><p>3</p></div>
+            </div>
+            <div class="step-description">
+                <div class="title"><h1>Prepare for the first rehearsal</h1></div>
+                <div class="content">
+                    <p>
+                        The most important things to have ready for the first rehearsal are 
+                        musical notation for the musicians (chord charts, lyrics, etc.) and 
+                        a confident plan for the flow of each song (flow being the order of choruses,
+                        verses, bridges, etc.). This can change slightly in the rehearsal, but it
+                        is essential to at least have a plan confident enough to convey to the musicians 
+                        in order to get a song going and the creative juices flowing. Once these pieces 
+                        are taken care of, there are extra steps which can be taken such as writing 
+                        additional parts, adding runs or licks to the songs, and creating click tracks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="contact">
+                <p>
+                    Questions? Contact me at <a href="mailto:lukeirvinemusic@gmail.com">lukeirvinemusic@gmail.com</a>,
+                    or at <a href="tel:509-212-1203">(509) 212-1203</a>
+                </p>
+            </div>
+            <div class="copyright">
+                <p>&#169; 2020 Luke Irvine</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
