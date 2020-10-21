@@ -66,7 +66,6 @@ p {
     width: 100vw;
     position: relative;
     background-size: cover;
-    position: relative;
     background-position: center;
     margin: 0px;
     display: flex;
@@ -111,6 +110,16 @@ p {
     background-color: rgb(255, 97, 124);
 }
 
+.number p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 6em;
+}
+
+.step p, .step-number h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+}
+
 #section1 p {
     font-family: 'Staatliches', sans-serif;
     color: white;
@@ -153,16 +162,6 @@ p {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-}
-
-.number p {
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 6em;
-}
-
-.step p, .step-number h1 {
-    font-family: 'Staatliches', cursive;
-    font-size: 2em;
 }
 
 .step-description {
