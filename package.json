@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "jest-style-matchers": "^0.1.2"
+    "jest-style-matchers": "^0.1.3"
   },
   "eslintConfig": {
     "parserOptions": {
